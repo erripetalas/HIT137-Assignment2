@@ -11,7 +11,6 @@ def encrypting_txt(text, n, m):
     The modulo 13 (% 13) ensures each transformation stays within its respective half of the alphabet. 
     Non-alphabetic characters remain unchanged.
 
-    The output will save the encrypted text in a new txt file 
     """
     encrypted_text = "" #stores the encrypted text in an empty string
     
